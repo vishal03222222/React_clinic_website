@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel';
+
 
 class Header extends Component {
     componentDidMount() {
