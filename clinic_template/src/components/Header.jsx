@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
 
+import $ from 'jquery';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import 'owl.carousel';
 
 class Header extends Component {
     componentDidMount() {
-        window.$('.header-carousel').owlCarousel({
-            items: 1,
-            loop: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            smartSpeed: 800
-        });
+        // Check if owlCarousel function is available
+        if (typeof $.fn.owlCarousel === 'function') {
+            $('.header-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                smartSpeed: 800
+            });
+        } else {
+            console.error("Owl Carousel is not loaded correctly.");
+        }
     }
-
     render() {
         return (
             <div className="container-fluid header bg-primary p-0 mb-5">
