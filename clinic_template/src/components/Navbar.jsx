@@ -24,4 +24,14 @@ class Navbar extends Component {
                                 <a href="testimonial.html" className="dropdown-item">Testimonial</a>
                                 <a href="404.html" className="dropdown-item">404 Page</a>
                             </div>
- 
+                        </div>
+                        <a href="contact.html" className="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i className="fa fa-arrow-right ms-3"></i></a>
+                </div>
+            </nav>
+        );
+    }
+}
+
+export default Navbar;
