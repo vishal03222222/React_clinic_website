@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Featureinfo from './Features.json'
 
 
 class Features extends Component {
@@ -25,38 +26,19 @@ class Features extends Component {
                                         </div>
                                     </div>
                                     <div className="col-6">
-                                        <div className="d-flex align-items-center">
-                                            <div className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style={{ width: '55px', height: '55px' }}>
-                                                <i className="fa fa-check text-primary"></i>
-                                            </div>
-                                            <div className="ms-4">
-                                                <p className="text-white mb-2">Quality</p>
-                                                <h5 className="text-white mb-0">Services</h5>
-                                            </div>
-                                        </div>
+                                       {Featureinfo.map((val)=>{
+                                         <div className="d-flex align-items-center">
+                                         <div className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style={{ width: '55px', height: '55px' }}>
+                                             <i className="fa fa-check text-primary"></i>
+                                         </div>
+                                         <div className="ms-4">
+                                             <p className="text-white mb-2">{val.name}</p>
+                                             <h5 className="text-white mb-0">{val.tag}</h5>
+                                         </div>
+                                     </div>
+                                       })}
                                     </div>
-                                    <div className="col-6">
-                                        <div className="d-flex align-items-center">
-                                            <div className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style={{ width: '55px', height: '55px' }}>
-                                                <i className="fa fa-comment-medical text-primary"></i>
-                                            </div>
-                                            <div className="ms-4">
-                                                <p className="text-white mb-2">Positive</p>
-                                                <h5 className="text-white mb-0">Consultation</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-6">
-                                        <div className="d-flex align-items-center">
-                                            <div className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style={{ width: '55px', height: '55px' }}>
-                                                <i className="fa fa-headphones text-primary"></i>
-                                            </div>
-                                            <div className="ms-4">
-                                                <p className="text-white mb-2">24 Hours</p>
-                                                <h5 className="text-white mb-0">Support</h5>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     {/* {
                                         this.content.map((val)=>{
                                            return  <div className="col-6">

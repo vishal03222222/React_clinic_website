@@ -15,18 +15,18 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Spinner/>
-     
-      <HeaderTopBar/>
-      <Navbar/>
-      <Header/>
-      <AboutUs/>
-      <Services/>
-      <Features/>
-      <Doctors/>
-      <Appointment/>
-      <Testimonials/>
-      <Footer/>
+      <Spinner />
+
+      <HeaderTopBar />
+      <Navbar />
+      <Header />
+      <AboutUs />
+     <Services />
+      <Features /> 
+      <Doctors />
+      <Appointment />
+      <Testimonials />
+      <Footer />
 
     </div>
   );
