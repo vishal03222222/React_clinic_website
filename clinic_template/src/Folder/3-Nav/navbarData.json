@@ -1,0 +1,30 @@
+{
+    "brand": {
+        "name": "Klinik",
+        "iconClass": "far fa-hospital",
+        "link": "index.html"
+    },
+    "links": [
+        { "name": "Home", "link": "index.html", "class": "nav-item nav-link active" },
+        { "name": "About", "link": "about.html", "class": "nav-item nav-link" },
+        { "name": "Service", "link": "service.html", "class": "nav-item nav-link" },
+        {
+            "name": "Pages",
+            "class": "nav-item dropdown",
+            "dropdown": true,
+            "items": [
+                { "name": "Feature", "link": "feature.html" },
+                { "name": "Our Doctor", "link": "team.html" },
+                { "name": "Appointment", "link": "appointment.html" },
+                { "name": "Testimonial", "link": "testimonial.html" },
+                { "name": "404 Page", "link": "404.html" }
+            ]
+        },
+        { "name": "Contact", "link": "contact.html", "class": "nav-item nav-link" }
+    ],
+    "appointmentButton": {
+        "name": "Appointment",
+        "iconClass": "fa fa-arrow-right",
+        "class": "btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"
+    }
+}

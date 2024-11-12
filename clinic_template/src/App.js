@@ -1,33 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
-import Spinner from './components/Spinner';
-import HeaderTopBar from './components/Topbar';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import AboutUs from './components/About';
-import Services from './components/Service';
-import Features from './components/Feature';
-import Doctors from './components/Team';
-import Appointment from './components/Appointment';
-import Testimonials from './components/Testimonial';
-import Footer from './components/Footer';
+import Footer from './Folder/11-Footer/Footer';
+import Navbar from './Folder/3-Nav/Navbar';
+import Header from './Folder/4-Header/Header';
+import About from './Folder/5-About/About';
+import Services from './Folder/6-Service/Services';
+import Future from './Folder/7-Future/Future';
+import Team from './Folder/8-Team/Team';
+import Appointment from './Folder/9-Appointment/Appointment';
+import Topsection from './Folder/2-TOP/Topsection';
+import Testsection from './Folder/10-Test/Testsection';
 
 function App() {
   return (
     <div className="App">
-      <Spinner />
-
-      <HeaderTopBar />
-      <Navbar />
-      <Header />
-      <AboutUs />
-     <Services />
-      <Features /> 
-      <Doctors />
-      <Appointment />
-      <Testimonials />
-      <Footer />
-
+      <Topsection/>
+      <Navbar/>
+      <Header/>
+      <About/>
+      <Services/>
+      <Future/>
+      <Team/>
+      <Appointment/>
+      <About/>
+      <Testsection/>
+      <Footer/>
     </div>
   );
 }

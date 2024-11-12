@@ -1,0 +1,34 @@
+{
+    "header": {
+      "subtitle": "Features",
+      "title": "Why Choose Us",
+      "description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet"
+    },
+    "features": [
+      {
+        "icon": "fa-user-md",
+        "title": "Doctors",
+        "description": "Experience"
+      },
+      {
+        "icon": "fa-check",
+        "title": "Services",
+        "description": "Quality"
+      },
+      {
+        "icon": "fa-comment-medical",
+        "title": "Consultation",
+        "description": "Positive"
+      },
+      {
+        "icon": "fa-headphones",
+        "title": "Support",
+        "description": "24 Hours"
+      }
+    ],
+    "image": {
+      "src": "img/feature.jpg",
+      "alt": "Feature Image"
+    }
+  }
+  

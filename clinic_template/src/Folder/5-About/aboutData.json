@@ -1,0 +1,21 @@
+{
+    "images": [
+        { "src": "img/about-1.jpg", "class": "img-fluid rounded w-75 align-self-end" },
+        { "src": "img/about-2.jpg", "class": "img-fluid rounded w-50 bg-white pt-3 pe-3", "style": { "marginTop": "-25%" } }
+    ],
+    "title": "Why You Should Trust Us? Get Know About Us!",
+    "subtitle": "About Us",
+    "paragraphs": [
+        "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+        "Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos."
+    ],
+    "features": [
+        "Quality health care",
+        "Only Qualified Doctors",
+        "Medical Research Professionals"
+    ],
+    "button": {
+        "text": "Read More",
+        "link": "#"
+    }
+}
