@@ -13,7 +13,7 @@ class Team extends Component {
                         <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="team-item position-relative rounded overflow-hidden">
                                 <div className="overflow-hidden">
-                                    <img className="img-fluid" src="img/team-1.jpg" alt />
+                                    <img className="img-fluid" src="img/team-1.jpg" />
                                 </div>
                                 <div className="team-text bg-light text-center p-4">
                                     <h5>Doctor Name</h5>
@@ -29,7 +29,7 @@ class Team extends Component {
                         <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div className="team-item position-relative rounded overflow-hidden">
                                 <div className="overflow-hidden">
-                                    <img className="img-fluid" src="img/team-2.jpg" alt />
+                                    <img className="img-fluid" src="img/team-2.jpg" alt=''/>
                                 </div>
                                 <div className="team-text bg-light text-center p-4">
                                     <h5>Doctor Name</h5>

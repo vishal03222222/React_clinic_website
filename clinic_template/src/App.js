@@ -1,14 +1,15 @@
 import './App.css';
-import Footer from './Folder/11-Footer/Footer';
-import Navbar from './Folder/3-Nav/Navbar';
-import Header from './Folder/4-Header/Header';
-import About from './Folder/5-About/About';
-import Services from './Folder/6-Service/Services';
-import Future from './Folder/7-Future/Future';
-import Team from './Folder/8-Team/Team';
-import Appointment from './Folder/9-Appointment/Appointment';
-import Topsection from './Folder/2-TOP/Topsection';
-import Testsection from './Folder/10-Test/Testsection';
+import About from './Components/About';
+import Appointment from './Components/Appointment';
+import Footer from './Components/Footer';
+import Future from './Components/Future';
+import Header from './Components/Header';
+import Navbar from './Components/Navbar';
+import Service from './Components/Services';
+import Team from './Components/Team';
+import Testsection from './Components/Testsection';
+import Topsection from './Components/Topsection';
+
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
-      <Services/>
+      <Service/>
       <Future/>
       <Team/>
       <Appointment/>
