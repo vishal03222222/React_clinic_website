@@ -1,0 +1,42 @@
+{
+    "address": {
+      "title": "Address",
+      "details": [
+        { "icon": "fa-map-marker-alt", "text": "123 Street, New York, USA" },
+        { "icon": "fa-phone-alt", "text": "+012 345 67890" },
+        { "icon": "fa-envelope", "text": "info@example.com" }
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "links": [
+        "Cardiology",
+        "Pulmonary",
+        "Neurology",
+        "Orthopedics",
+        "Laboratory"
+      ]
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        "About Us",
+        "Contact Us",
+        "Our Services",
+        "Terms & Condition",
+        "Support"
+      ]
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Dolor amet sit justo amet elitr clita ipsum elitr est."
+    },
+    "copyright": {
+      "text": "© Your Site Name, All Right Reserved.",
+      "designer": {
+        "text": "Designed By HTML Codex",
+        "url": "https://htmlcodex.com"
+      }
+    }
+  }
+  

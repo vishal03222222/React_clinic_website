@@ -1,0 +1,13 @@
+{
+    "title": "Good Health Is The Root Of All Happiness",
+    "counters": [
+        { "count": 123, "label": "Expert Doctors" },
+        { "count": 1234, "label": "Medical Staff" },
+        { "count": 12345, "label": "Total Patients" }
+    ],
+    "carouselItems": [
+        { "title": "Cardiology", "image": "img/carousel-1.jpg" },
+        { "title": "Neurology", "image": "img/carousel-2.jpg" },
+        { "title": "Pulmonary", "image": "img/carousel-3.jpg" }
+    ]
+}
